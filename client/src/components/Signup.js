@@ -51,6 +51,7 @@ export const SignupForm = () => {
     },
   });
 
+  console.log(formik.handleSubmit)
   return (
     <div>
       <h1>Customer sign up form</h1>
